@@ -15,6 +15,7 @@
             align-items: center;  
         }*/
         .container{
+            padding: 15px 0;
             width: 50%;
             margin: 0 auto;
             text-align: center;
@@ -23,15 +24,31 @@
             background: #fff;
             border-radius: 10px;
             margin-top: 50px;
+            margin-bottom: 50px;
         }
         .top{
-
+            width: 80%;
+            margin: 0 auto;
+            padding: 15px 0 5px;
+            border-bottom: 2px solid #444;
         }
         .mid{
-
+            margin-top: 20px;
+        }
+        .mid .item{
+            margin-bottom: 30px
         }
         .bom{
 
+        }
+        h3{
+            margin-bottom: 5px;
+        }
+        button{
+            width: 80px;
+            height: 30px;
+            border: none;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -43,16 +60,46 @@
             </div>
             <h2>码蜂社超人制造计划</h2>
             <div style="font-size:13px;">
-                为了让讲师了解您的情况，便于在今后的学习当中给你个性化的辅导方案，请仔细填写下面内容哦<br>
+                为了在今后的学习当中给您提供个性化的辅导方案，请仔细填写下面信息<br>
                 (填写完成后，您将获得一次免费试听码蜂社课程的机会，且报名更有优惠！)
             </div>
             
         </div>
         <div class="mid">
-
+            <div class="item">
+                <h3>姓名</h3>
+                <input type="text" style="width:130px;height:20px;">
+            </div>
+            <div class="item">
+                <h3>联系方式</h3>
+                <p>手机</p>
+                <input type="text" style="width:130px;height:20px;">
+                <p style="margin-top:15px;">QQ</p>
+                <input type="text" style="width:130px;height:20px;">
+            </div>
+            <div class="item">
+                <h3 style="margin-bottom:5px;">所在城市</h3>
+                <input type="text" style="width:130px;height:20px;">
+            </div>
+            <div class="item">
+                <h3>从什么途径了解码蜂社</h3>
+                <textarea type="text" style="width:250px;height:80px;"></textarea>
+            </div>
+            <div class="item">
+                <h3>学习和工作经历，目前状况</h3>
+                <textarea type="text" style="width:250px;height:80px;"></textarea>
+            </div>
+            <div class="item">
+                <h3>想要达到的效果</h3>
+                <textarea type="text" style="width:250px;height:80px;"></textarea>
+            </div>
+            <div class="item">
+                <h3>其他</h3>
+                <textarea type="text" style="width:250px;height:80px;"></textarea>
+            </div>
         </div>
         <div class="bom">
-
+            <button>提交</button>
         </div>
     </div>
 </body>
